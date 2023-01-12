@@ -40,7 +40,11 @@ $videotheque = array(
 echo '12.Mes films : <br>';
 //ajoutez votre code ici
 
-
+foreach ($videotheque as $subarray) {
+    foreach ($subarray as $value) {
+        echo "$value <br>";
+    }
+}
 //----------------------------------------
 //Afficher toutes les informations de la vidéothèque
 //reprenez le tableau ci-dessus, ajoutez-y 3 de vos films préférés avec les mêmes
